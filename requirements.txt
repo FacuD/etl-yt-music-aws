@@ -1,0 +1,6 @@
+ytmusicapi==0.22.0
+pandas==1.4.4
+python-decouple==3.6
+pathlib==1.0.1
+SQLAlchemy==1.4.44
+psycopg2-binary==2.9.5

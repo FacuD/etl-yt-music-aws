@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "etl-yt-music"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "etl_yt_music"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ytmusicapi = "^0.22.0"
+pandas = "^1.4.4"
+python-decouple = "^3.6"
+pathlib = "^1.0.1"
+SQLAlchemy = "^1.4.44"
+psycopg2-binary = "^2.9.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pdbpp = "^0.10.3"
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
